@@ -1,0 +1,17 @@
+Resumen:
+Temas: 
+1.- Sobrecarga : es la capacidad que tiene las clases de tener
+constructores o métodos con un mismo nombre pero con cantidad distinta
+de parametros. E.j:
+	public Persona(){
+		this.miembroDato1 = "";
+		this.miembrodato2 = "";
+	}
+	
+	public Persona(int dato1, double dato2){
+		this.dato1 = dato1;
+		this.dato2 = dato2;
+	}
+
+2.- String : es una clase que permite definir y manipular los caracteres de una
+cadena.

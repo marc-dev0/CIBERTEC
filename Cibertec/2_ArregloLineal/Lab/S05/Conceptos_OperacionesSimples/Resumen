@@ -1,0 +1,32 @@
+2.- Arreglo Líneal:
+
+2.1 Conceptos y Operaciones Simples
+	Un arreglo es un conjunto de elementos ordenados uno 
+	tras otro, deben ser de un mismo tipo de datos, además,
+	cada elemento tiene el mismo peso que los demas.
+
+	2.1.1, 2.1.2 Declaración e inicialización
+	int [] n = {3,4,5,6,7};
+	String s[] = {'Miguel','Rojas','Amy'};
+	
+	2.1.3 Operación de recorrido
+	a-) Ascendente o de izquierda a derecha
+		for(int i = 0; i<n.length;i++){
+		}
+	b-) Descendente o de derecha a izquierda
+		for(int i = n.length-1; i>=0;i--){
+		}
+	2.1.4 Operación de reemplazo
+		Consiste en reemplazar el valor de un elemento
+		n[pos] = valor;
+		n[0] = 25;
+		s[2] = 'Roger';
+		
+2.2 Operaciones Fundamentales
+	2.2.1 Declaración, creación y reserva
+	Podemos definir la longitud del arreglo declarando:
+	int n[] = new int[5];
+	
+	
+	
+	

@@ -1,0 +1,25 @@
+Semana 03 - Estructura de Datos
+Temas : 
+1.- Referencia This - hace referencia al objeto donde están declarados los metodos o miembros dato donde fue invocado.
+2.- Modicadores :
+	2.1 Static : Atributos,métodos,etc. declarados con este modificador
+				 pertenecen a la clase, y no a los objetos, es decir, para poder usarlos
+				 basta con referenciar el nombre de la clase y usar las variables necesarias:
+				 {
+				 Persona.getPrecio();
+				 }
+				 A diferencia de declararlo sin este modificar para poder acceder a un método, variable 
+				 de alguna clase, primero se debe crear una instancia de la clase:
+				 {
+				 Persona obj = new Persona();
+				 obj.getPrecio();
+				 }
+	2.2 Final : al declarar una variable con este modificador, la variable es una constante para todos los 
+				objetos que obtengan el valor de este. Además, la variable no puede ser modificada.
+	
+3.- Librerías : conjunto de métodos que proveen de subprogramas usados repetidamente en nuestro desarrollo.
+Nota: 
+Variables Static -> variables de clase.
+Métodos Static -> metodos de clase.
+etc,etc. 
+				 
